@@ -96,8 +96,8 @@ nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 
 " move vertically by visual line
-nnoremap j gj
-nnoremap k gk
+nnoremap n gj
+nnoremap e gk
 
 " nnoremap gV `[v`]
 
