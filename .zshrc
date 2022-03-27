@@ -191,11 +191,19 @@ alias cdm="cd ~/eoin/Desktop/Stede_Bonnet/Music/All"
 alias cds="cd ~/eoin/Desktop/Stede_Bonnet/Music/All/Soulseek"
 alias p="sudo pacman -S"
 alias cdp="cd ~/Programming"
-alias cdj="cd ~/Programming/JomBot"
+alias cdj="cd ~/PycharmProjects/JomBot"
 alias "ip?"="curl ifconfig.co"
 alias exe="chmod +x"
-alias "git-ssh"="git remote set-url origin git@github.com:eoin-cr/"
 alias sys="sudo systemctl"
 alias netsoc="ssh eoin@netsoc.com"
 alias z="zathura"
 alias cdc="cd ~/Uni/C/Prog_II/"
+alias cdl="cd ~/Programming/Leetcode"
+alias m="mpv"
+alias pg="ping gnu.org"
+ginit() {
+    git init
+    git remote add origin https://github.com/$1
+    git remote set-url origin git@github.com:$1
+    git pull origin master
+}
