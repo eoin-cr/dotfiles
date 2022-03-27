@@ -203,7 +203,6 @@ alias m="mpv"
 alias pg="ping gnu.org"
 ginit() {
     git init
-    git remote add origin https://github.com/$1
-    git remote set-url origin git@github.com:$1
+    git remote add origin git@github.com:$1
     git pull origin master
 }
