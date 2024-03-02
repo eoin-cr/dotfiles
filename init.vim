@@ -65,7 +65,6 @@ endif
 " nnoremap <C-L> <C-W>i
 
 " Map Colemak keys in alphabetical order.
-noremap m p
 noremap d g
 noremap e k
 noremap f e
@@ -82,7 +81,7 @@ noremap s d
 noremap t f
 noremap u i
 noremap y o
-noremap M P
+noremap ; p
 noremap D G
 noremap E K
 noremap F E
@@ -99,6 +98,7 @@ noremap S D
 noremap T F
 noremap U I
 noremap Y O
+
 
 :set expandtab
 :set tabstop=4
